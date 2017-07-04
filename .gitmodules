@@ -174,3 +174,7 @@
 	path = apps/plant
 	url = git@github.com:guyellis/plant.git
 	branch = master
+[submodule "apps/arc"]
+	path = apps/arc
+	url = git@github.com:diegohaz/arc.git
+	branch = master
