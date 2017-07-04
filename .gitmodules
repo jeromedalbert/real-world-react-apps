@@ -178,3 +178,7 @@
 	path = apps/hyper
 	url = git@github.com:zeit/hyper.git
 	branch = master
+[submodule "apps/ritoplz"]
+	path = apps/ritoplz
+	url = git@github.com:ritoplz/ritoplz.git
+	branch = master
