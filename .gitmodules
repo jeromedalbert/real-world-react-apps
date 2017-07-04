@@ -127,3 +127,7 @@
 [submodule "apps/guesstimate-app"]
 	path = apps/guesstimate-app
 	url = git@github.com:getguesstimate/guesstimate-app.git
+[submodule "apps/plant"]
+	path = apps/plant
+	url = git@github.com:guyellis/plant.git
+	branch = master
