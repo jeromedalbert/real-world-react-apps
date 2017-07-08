@@ -21,6 +21,42 @@ cd real-world-react/
 git submodule update --init
 ```
 
+## How you can analyze Real World React apps
+
+Some of the examples below use [ag](https://github.com/ggreer/the_silver_searcher), but could just as well use grep or equivalent.
+
+#### Global searches
+
+```bash
+# Look for Yarn in markdown instructions
+ag -C 'yarn' -G '\.md'
+
+# Find out what cookie libraries people use
+ag cookie -G 'package.json'
+```
+
+#### Compare a lot of files at once
+
+```bash
+# Find ideas on how to configure Webpack
+# Opens all webpack.config files in your editor of choice (vim/subl/atom/etc)
+vim $(find . -name '*webpack.config*')
+
+# Output content from all package.json files
+find . -name package.json | xargs cat
+```
+
+#### Find out how long eslintrc files tend to be
+```bash
+find . -name '*eslintrc*' | xargs wc -l | sort
+```
+
+#### Compare the popularity of let vs const
+```bash
+ag 'let ' --js --stats-only | head -n 1
+ag 'const ' --js --stats-only | head -n 1
+```
+
 ## Information for Contributors
 
 #### Is your app the right fit?
