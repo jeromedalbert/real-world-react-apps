@@ -86,6 +86,13 @@ To update the revisions, run:
 git submodule foreach git pull origin master
 ```
 
+## Other Real World Codebase Collections
+
+- Real World Ember https://github.com/eliotsykes/real-world-ember
+- Real World Rails https://github.com/eliotsykes/real-world-rails
+- Real World Sinatra https://github.com/jeromedalbert/real-world-sinatra
+- Know any others? Please open a PR and add the link here
+
 ---
 
 # Contributors
