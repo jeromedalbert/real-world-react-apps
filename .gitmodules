@@ -178,3 +178,6 @@
 	path = apps/serverless-site
 	url = git@github.com:serverless/site.git
 	branch = master
+[submodule "apps/rater-mc-ratey-face"]
+	path = apps/rater-mc-ratey-face
+	url = git@github.com:Tyler-Losinski/Rater-Mc-Ratey-Face.git
