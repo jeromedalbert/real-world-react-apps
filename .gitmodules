@@ -34,10 +34,6 @@
 	path = apps/sprintly-ui
 	url = git@github.com:sprintly/sprintly-ui.git
 	branch = master
-[submodule "apps/grommet"]
-	path = apps/grommet
-	url = git@github.com:grommet/grommet.git
-	branch = master
 [submodule "apps/dockunit-platform"]
 	path = apps/dockunit-platform
 	url = git@github.com:dockunit/platform.git
