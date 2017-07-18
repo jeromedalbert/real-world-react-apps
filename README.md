@@ -1,10 +1,10 @@
-# Real World React
+# Real world React apps
 
-> Real World React apps and their open source codebases for developers to learn from
+> Real world React apps and their open source codebases for developers to learn from
 
 Learn from React apps written by experienced developers.
 
-You'll find the source code for the Real World React apps in the [`apps/`](apps/) subdirectory.
+You'll find the source code for the apps in the [`apps/`](apps/) subdirectory.
 
 Thank you to every developer who has worked on a project this repo links to, your work is helping developers learn React.
 
@@ -12,16 +12,16 @@ Thank you to every developer who has worked on a project this repo links to, you
 
 ```bash
 # Clone this git repo:
-git clone git@github.com:jeromedalbert/real-world-react.git
+git clone git@github.com:jeromedalbert/real-world-react-apps.git
 
-cd real-world-react/
+cd real-world-react-apps/
 
 # The apps are linked to as git submodules.
 # This will take some time...
 git submodule update --init
 ```
 
-## How you can analyze Real World React apps
+## How you can analyze the apps
 
 Some of the examples below use [ag](https://github.com/ggreer/the_silver_searcher), but could just as well use grep or equivalent.
 
