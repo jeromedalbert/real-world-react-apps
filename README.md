@@ -63,6 +63,7 @@ ag 'const ' --js --stats-only | head -n 1
 - Real World Ember https://github.com/eliotsykes/real-world-ember
 - Real World Rails https://github.com/eliotsykes/real-world-rails
 - Real World Sinatra https://github.com/jeromedalbert/real-world-sinatra
+- Real World Ruby Apps https://github.com/jeromedalbert/real-world-ruby-apps
 - Know any others? Please open a PR and add the link here
 
 ## Information for contributors
