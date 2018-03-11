@@ -6,10 +6,6 @@
 	path = apps/react-hn
 	url = git@github.com:insin/react-hn.git
 	branch = master
-[submodule "apps/github-battle-app"]
-	path = apps/github-battle-app
-	url = git@github.com:ReactTraining/react-fundamentals.git
-	branch = hosting
 [submodule "apps/flatris"]
 	path = apps/flatris
 	url = git@github.com:skidding/flatris.git
@@ -89,10 +85,6 @@
 [submodule "apps/do"]
 	path = apps/do
 	url = git@github.com:1ven/do.git
-	branch = master
-[submodule "apps/reddit-mobile"]
-	path = apps/reddit-mobile
-	url = git@github.com:reddit/reddit-mobile.git
 	branch = master
 [submodule "apps/i-have-to-return-some-videotapes"]
 	path = apps/i-have-to-return-some-videotapes
