@@ -182,3 +182,35 @@
 	path = apps/english-accents-map
 	url = git@github.com:ismaelgt/english-accents-map.git
 	branch = master
+[submodule "apps/favesound-mobx"]
+	path = apps/favesound-mobx
+	url = https://github.com/rwieruch/favesound-mobx
+	branch = master
+[submodule "apps/react-transmission"]
+	path = apps/react-transmission
+	url = git@github.com:fcsonline/react-transmission.git
+	branch = master
+[submodule "apps/mortgage-mobx"]
+	path = apps/mortgage-mobx
+	url = git@github.com:paulhoughton/mortgage-mobx.git
+	branch = master
+[submodule "apps/flex-editor"]
+	path = apps/flex-editor
+	url = git@github.com:limichange/flex-editor.git
+	branch = master
+[submodule "apps/winamp2-js"]
+	path = apps/winamp2-js
+	url = git@github.com:captbaritone/winamp2-js.git
+	branch = master
+[submodule "apps/franchise"]
+	path = apps/franchise
+	url = git@github.com:HVF/franchise.git
+	branch = master
+[submodule "apps/foodprocessor"]
+	path = apps/foodprocessor
+	url = git@github.com:pearofducks/foodprocessor.git
+	branch = master
+[submodule "apps/kratelabs-app"]
+	path = apps/kratelabs-app
+	url = git@github.com:KrateLabs/KrateLabs-App.git
+	branch = master
