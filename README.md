@@ -17,8 +17,11 @@ git clone git@github.com:jeromedalbert/real-world-react-apps.git
 cd real-world-react-apps/
 
 # The apps are linked to as git submodules.
-# This will take some time...
+# This will take some time... (see comment below for possible speedup)
 git submodule update --init
+
+# OR if you've got git 2.9+ installed try to run updates in parallel:
+# git submodule update --init --jobs 4
 ```
 
 ## How you can analyze the apps
@@ -39,7 +42,7 @@ ag cookie -G 'package.json'
 
 ```bash
 # Find ideas on how to configure Webpack
-# Opens all webpack.config files in your editor of choice (vim/subl/atom/etc)
+# Opens all webpack.config files in your editor of choice (vim/code/etc)
 vim $(find . -name '*webpack.config*')
 
 # Output content from all package.json files
