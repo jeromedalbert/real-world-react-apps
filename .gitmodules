@@ -166,10 +166,6 @@
 	path = apps/ritoplz
 	url = git@github.com:ritoplz/ritoplz.git
 	branch = master
-[submodule "apps/serverless-site"]
-	path = apps/serverless-site
-	url = git@github.com:serverless/site.git
-	branch = master
 [submodule "apps/english-accents-map"]
 	path = apps/english-accents-map
 	url = git@github.com:ismaelgt/english-accents-map.git
