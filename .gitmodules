@@ -114,10 +114,6 @@
 	path = apps/react-tetris
 	url = git@github.com:chvin/react-tetris.git
 	branch = master
-[submodule "apps/debugger.html"]
-	path = apps/debugger.html
-	url = git@github.com:devtools-html/debugger.html.git
-	branch = master
 [submodule "apps/illustrated-algorithms"]
 	path = apps/illustrated-algorithms
 	url = git@github.com:skidding/illustrated-algorithms.git
