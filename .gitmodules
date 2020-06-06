@@ -198,3 +198,7 @@
 	path = apps/kratelabs-app
 	url = git@github.com:KrateLabs/KrateLabs-App.git
 	branch = master
+[submodule "apps/feednext"]
+	path = apps/feednext
+	url = git@github.com:feednext/feednext.git
+	branch = master
