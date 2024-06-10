@@ -1,3 +1,5 @@
+**NOTE: This project is unmaintained. I am leaving it as an archive.**
+
 # Real world React apps
 
 > Real world React apps and their open source codebases for developers to learn from
